@@ -32,6 +32,9 @@ Thumbs.db
 *.suo
 *.user
 
+# Claude Code — local machine-specific permissions only
+.claude/settings.local.json
+
 # Logs
 *.log
 npm-debug.log*

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" pr view *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" pr list *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" pr diff *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" pr checks *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo view *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run list *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run view *)",
+      "Bash(npm --version)"
+    ]
+  }
+}
